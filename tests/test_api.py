@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 
-API_URL = "http://localhost:8000/predict"
+API_URL = "https://anomalydetection-api.onrender.com/docs"
 
 def test_api_with_csv():
     df = pd.read_csv("data/test_data.csv")
