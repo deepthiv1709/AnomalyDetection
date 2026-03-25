@@ -5,7 +5,7 @@ API_URL = "https://anomalydetection-api.onrender.com/predict"
 
 def test_api_with_csv():
     df = pd.read_csv("data/test_data.csv")
-    df = df.head(10)
+    # df = df.head(10)
 
     success = 0
     failed = 0
